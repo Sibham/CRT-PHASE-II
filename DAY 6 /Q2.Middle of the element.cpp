@@ -1,4 +1,4 @@
-//APP 1 
+//APProach 1 
 lass Solution {
 public:
     ListNode* middleNode(ListNode* head) {
@@ -16,7 +16,7 @@ public:
     }
 };
 
-//APP 2
+//APProach 2
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {

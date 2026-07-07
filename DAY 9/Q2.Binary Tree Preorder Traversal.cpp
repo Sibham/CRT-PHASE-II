@@ -6,7 +6,7 @@ public:
         if(root==NULL){
             return ;
         }
-        ans.push_back(root->val);
+        ans.push_back(root->val);  //ans.push_back(root->data);
         traversal(root->left,ans);
         traversal(root->right,ans);
     }

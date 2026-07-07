@@ -7,7 +7,7 @@ void traversal(TreeNode* root){
     }
 
     traversal(root->left);
-    ans.push_back(root->val);
+    ans.push_back(root->val); //ans.push_back(root->data);
     traversal(root->right);
 
 }
